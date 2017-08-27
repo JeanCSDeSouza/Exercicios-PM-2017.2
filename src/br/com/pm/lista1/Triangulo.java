@@ -35,7 +35,6 @@ public class Triangulo{
 			ladosTriangulo.add(lado1);
 			ladosTriangulo.add(lado2);
 			ladosTriangulo.add(lado3);
-			System.out.println(ladosTriangulo.size());
 			this.ladosTriangulo = ladosTriangulo;
 			if(equilatero())
 				tipo = EQUILATERO;
